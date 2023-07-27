@@ -14,7 +14,7 @@ const back = document.getElementById('back');
 const no_sense = document.getElementById('no_sense');
 const comeBack = document.getElementById('comeBack');
 const banner = document.getElementById('banner_img');
-let music = ['/Musicas/SnapInsta.io-Boi Bumbá(720p).mp4', '/Musicas/O Xote das Meninas.mp4', '/Musicas/SnapInsta.io-Dominguinhos - _Eu Só Quero Um Xodó_ (O Forró do Dominguinhos_2003)-(480p).mp4', '/Musicas/SnapInsta.io - Xote Dos Milagres (128 kbps).mp3', '/Musicas/SnapInsta.io-Vem Morena(720p).mp4']
+let music = ['https://conradoec.github.io/Trabalho_de_PW-Festa_Junina/Musicas/SnapInsta.io-Boi Bumbá(720p).mp4', 'https://conradoec.github.io/Trabalho_de_PW-Festa_Junina/Musicas/O Xote das Meninas.mp4', 'https://conradoec.github.io/Trabalho_de_PW-Festa_Junina/Musicas/SnapInsta.io-Dominguinhos - _Eu Só Quero Um Xodó_ (O Forró do Dominguinhos_2003)-(480p).mp4', 'https://conradoec.github.io/Trabalho_de_PW-Festa_Junina/Musicas/SnapInsta.io - Xote Dos Milagres (128 kbps).mp3', 'https://conradoec.github.io/Trabalho_de_PW-Festa_Junina/Musicas/SnapInsta.io-Vem Morena(720p).mp4']
 let image = ['https://i.im.ge/2023/06/19/icWCCK.download.jpg',
             'https://i.im.ge/2023/06/19/icWY68.download.jpg', 
             'https://i.im.ge/2023/06/19/icKiOx.imagesqtbnANd9GcRqWIcXiyOH2XlmXWivdorsJuad6cDGN-UlDgampusqpCAU.jpg', 
