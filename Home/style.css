@@ -335,6 +335,11 @@ header ul li .material-symbols-outlined:hover
     justify-content: space-around;
 }
 
+#section2 ul li div a
+{
+    text-decoration: none;
+}
+
 #section2 ul li span
 {
     background-color: rgb(115,65,15);
