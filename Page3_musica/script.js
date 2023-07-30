@@ -110,9 +110,6 @@ function no_senseSong(a, b)
 function comeBackSong()
 {
     song.src = music[allSongs];
-    banner.src = image[allSongs]
-    songName.innerText = realSongName[allSongs]
-    bandName.innerText = singer[allSongs]
     playSong()
     console.log(allSongs)
 }
