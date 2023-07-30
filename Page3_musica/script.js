@@ -45,19 +45,12 @@ function NotScroll()
     }
 }
 
-function chooseBanner()
+function chooseItems()
 {
     banner.src = image[allSongs];
-}
-
-function chooseSongName()
-{
     songName.innerText = realSongName[allSongs];
-}
-
-function chooseSinger()
-{
     bandName.innerText = singer[allSongs];
+    song.src = music[allSongs];
 }
 
 function playSong()
@@ -86,19 +79,21 @@ function nextSong()
     {
         allSongs++
     }
-    song.src = music[allSongs];
-    chooseBanner()
-    chooseSinger()
-    chooseSongName()
+    chooseItems()
     playSong()
 }
 
 function backSong()
-{
-    song.src = music[allSongs];
-    chooseBanner()
-    chooseSinger()
-    chooseSongName()
+{   
+    if(allSongs === 0)
+    {
+        allSongs = music.length -1;
+    }
+    else
+    {
+        allSongs--
+    }
+    chooseItems()
     playSong()
 }
 
@@ -173,21 +168,11 @@ play.addEventListener('click', function()
 next.addEventListener('click', function()
 {
     nextSong()
-    console.log(allSongs)
 })
 
 back.addEventListener('click', function()
 {
-    if(allSongs === 0)
-    {
-        allSongs = music.length -1;
-    }
-    else
-    {
-        allSongs--
-    }
     backSong()
-    console.log(allSongs)
 })
 
 comeBack.addEventListener('click', function()
