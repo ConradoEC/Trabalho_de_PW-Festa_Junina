@@ -57,7 +57,7 @@ function chooseSongName()
 
 function chooseSinger()
 {
-    songName.innerText = singer[allSongs];
+    bandName.innerText = singer[allSongs];
 }
 
 function playSong()
