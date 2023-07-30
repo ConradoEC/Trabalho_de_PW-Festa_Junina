@@ -104,7 +104,7 @@ function no_senseSong(a, b)
 
 function comeBackSong()
 {
-    song.src = music[allSongs];
+    chooseItems()
     playSong()
     console.log(allSongs)
 }
